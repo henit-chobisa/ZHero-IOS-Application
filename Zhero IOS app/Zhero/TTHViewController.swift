@@ -27,10 +27,13 @@ class TTHViewController: UIViewController {
         imaheView.layer.cornerRadius = imaheView.frame.height/2
         let webView = WKWebView(frame: myview.frame)
         view.addSubview(webView)
-        let url = URL(string: "http://127.0.0.1:5501/index.html")
-        let request = URLRequest(url: url!)
+        let path = Bundle.main.path(forResource: "index", ofType: "html")
+        let url = URL(fileURLWithPath: path!)
+        let request = URLRequest(url: url)
         webView.load(request)
         myview.isMultipleTouchEnabled = false
+        webView.allowsLinkPreview = true
+        webView.accessibilityRespondsToUserInteraction = true
         
         db.collection((Auth.auth().currentUser?.email)!).getDocuments { (querysnapsht, error) in
             let data = querysnapsht!.documents

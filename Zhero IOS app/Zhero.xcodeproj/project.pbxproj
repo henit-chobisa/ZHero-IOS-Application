@@ -27,6 +27,15 @@
 		1DDC0BA426055B1600CC7C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDC0BA226055B1600CC7C4B /* LaunchScreen.storyboard */; };
 		1DDC0BC72605D8D200CC7C4B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC0BC62605D8D200CC7C4B /* RegisterViewController.swift */; };
 		1DDC0BCA2605D8F600CC7C4B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC0BC92605D8F600CC7C4B /* MainViewController.swift */; };
+		1DE5391D26065A0F009710D7 /* ChatterRows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE5391C26065A0E009710D7 /* ChatterRows.xib */; };
+		1DE53927260683C5009710D7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 1DE5391F260683C4009710D7 /* index.html */; };
+		1DE53928260683C5009710D7 /* calender.html in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53920260683C4009710D7 /* calender.html */; };
+		1DE53929260683C5009710D7 /* calender.css in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53921260683C4009710D7 /* calender.css */; };
+		1DE5392A260683C5009710D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53922260683C5009710D7 /* fonts */; };
+		1DE5392B260683C5009710D7 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53923260683C5009710D7 /* css */; };
+		1DE5392C260683C5009710D7 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53924260683C5009710D7 /* js */; };
+		1DE5392D260683C5009710D7 /* calender.js in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53925260683C5009710D7 /* calender.js */; };
+		1DE5392E260683C5009710D7 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53926260683C5009710D7 /* images */; };
 		1E2DE4971A71DFA87C8FEE55 /* Pods_Zhero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC7419FB1350044EAF930C8 /* Pods_Zhero.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +63,15 @@
 		1DDC0BA526055B1600CC7C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDC0BC62605D8D200CC7C4B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1DDC0BC92605D8F600CC7C4B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1DE5391C26065A0E009710D7 /* ChatterRows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatterRows.xib; sourceTree = SOURCE_ROOT; };
+		1DE5391F260683C4009710D7 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = SOURCE_ROOT; };
+		1DE53920260683C4009710D7 /* calender.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calender.html; sourceTree = SOURCE_ROOT; };
+		1DE53921260683C4009710D7 /* calender.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = calender.css; sourceTree = SOURCE_ROOT; };
+		1DE53922260683C5009710D7 /* fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fonts; sourceTree = SOURCE_ROOT; };
+		1DE53923260683C5009710D7 /* css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = css; sourceTree = SOURCE_ROOT; };
+		1DE53924260683C5009710D7 /* js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = js; sourceTree = SOURCE_ROOT; };
+		1DE53925260683C5009710D7 /* calender.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calender.js; sourceTree = SOURCE_ROOT; };
+		1DE53926260683C5009710D7 /* images */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = images; sourceTree = SOURCE_ROOT; };
 		821820856CF0DF9598CA533F /* Pods-Zhero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.release.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.release.xcconfig"; sourceTree = "<group>"; };
 		90BC3535B826762472BEF685 /* Pods-Zhero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.debug.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +118,15 @@
 		1DDC0B9626055B1500CC7C4B /* Zhero */ = {
 			isa = PBXGroup;
 			children = (
+				1DE53921260683C4009710D7 /* calender.css */,
+				1DE53920260683C4009710D7 /* calender.html */,
+				1DE53925260683C5009710D7 /* calender.js */,
+				1DE53923260683C5009710D7 /* css */,
+				1DE53922260683C5009710D7 /* fonts */,
+				1DE53926260683C5009710D7 /* images */,
+				1DE5391F260683C4009710D7 /* index.html */,
+				1DE53924260683C5009710D7 /* js */,
+				1DE5391C26065A0E009710D7 /* ChatterRows.xib */,
 				1D27448C2606402D00A7E6F8 /* ChatterRows.swift */,
 				1D27448B2606402C00A7E6F8 /* Chatters.swift */,
 				1D27448F2606402D00A7E6F8 /* MessageCellTableViewCell.swift */,
@@ -192,11 +219,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE5392E260683C5009710D7 /* images in Resources */,
+				1DE5392B260683C5009710D7 /* css in Resources */,
+				1DE5392A260683C5009710D7 /* fonts in Resources */,
 				1DDC0BA426055B1600CC7C4B /* LaunchScreen.storyboard in Resources */,
+				1DE53928260683C5009710D7 /* calender.html in Resources */,
 				1D2744902606402D00A7E6F8 /* MessageCellTableViewCell.xib in Resources */,
 				1D2744912606402D00A7E6F8 /* senderTableViewCell.xib in Resources */,
 				1DDC0BA126055B1600CC7C4B /* Assets.xcassets in Resources */,
+				1DE5391D26065A0F009710D7 /* ChatterRows.xib in Resources */,
+				1DE5392D260683C5009710D7 /* calender.js in Resources */,
+				1DE53927260683C5009710D7 /* index.html in Resources */,
+				1DE53929260683C5009710D7 /* calender.css in Resources */,
 				1D356DD926060097008DF68D /* GoogleService-Info.plist in Resources */,
+				1DE5392C260683C5009710D7 /* js in Resources */,
 				1DDB9275260638F4000959A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

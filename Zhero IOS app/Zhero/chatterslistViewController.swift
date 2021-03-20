@@ -13,15 +13,14 @@ import FirebaseFirestore
 import SearchTextField
 
 
-class chatterslistViewController: UIViewController, UITableViewDelegate {
+
+class chatterslistViewController: UIViewController {
     @IBOutlet weak var userimage: UIImageView!
     @IBOutlet weak var chattersTableView: UITableView!
     var rootcount = 1
     var name = ""
     var photo = ""
     var images : [UIImage] = []
-   
-
     let db = Firestore.firestore()
 
     @IBOutlet weak var topbarview: UIView!
@@ -30,8 +29,17 @@ class chatterslistViewController: UIViewController, UITableViewDelegate {
     var profilelist : [SearchTextFieldItem] = []
     var chatterlist : [Chatters] = []
     
+    var neo = ""
+    var neomail = ""
+    var neoimage : UIImage = #imageLiteral(resourceName: "2189")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        DispatchQueue.main.async {
+            self.loaddata()
+        }
+       
         
         db.collection((Auth.auth().currentUser?.email)!).getDocuments { (querysnapsht, error) in
             let data = querysnapsht!.documents
@@ -48,14 +56,6 @@ class chatterslistViewController: UIViewController, UITableViewDelegate {
             
             
         }
-        
-        DispatchQueue.main.async {
-            
-            
-        }
-    
-        
-    
         
         topbarview.layer.cornerRadius = 20
         Profilesearchfeild.attributedPlaceholder = NSAttributedString(string: "            Enter Number to Search",
@@ -117,23 +117,16 @@ class chatterslistViewController: UIViewController, UITableViewDelegate {
                     self.userimage.layer.borderWidth = 0.5
                     let data = querysnapshot!.documents
                     for doc in data {
-                        let imageurl = doc["photo"]
+                        let imageurl = doc["Photo"]
                         let url = URL.init(string: imageurl as! String)
                         let imageresourse = ImageResource.init(downloadURL: url!)
                         self.userimage.kf.setImage(with: imageresourse) { (result) in
                            print("Success")
                         }
-                        
-                        
                     }
                 }
-           
-                
             }
-        
-       
-
-        // Do any additional setup after loading the view.
+    }
     }
         
         
@@ -144,7 +137,7 @@ class chatterslistViewController: UIViewController, UITableViewDelegate {
                     if let snapshotDocuments = query?.documents {
                         for doc in snapshotDocuments {
                             let data = doc.data()
-                            if let mail = data["email"] as? String, let chatter = data["username"] as? String {
+                            if let mail = data["email"] as? String, let chatter = data["name"] as? String {
                                 let newchatter = Chatters.init(email: mail, name: chatter)
                                 self.chatterlist.append(newchatter)
                                 
@@ -167,7 +160,7 @@ class chatterslistViewController: UIViewController, UITableViewDelegate {
             
 }
     
-}
+
 
 extension chatterslistViewController : UITableViewDataSource {
         
@@ -184,7 +177,7 @@ extension chatterslistViewController : UITableViewDataSource {
                 
                 let data = querysnapshot!.documents
                 for doc in data {
-                    let imageurl = doc["photo"]
+                    let imageurl = doc["Photo"]
                     let url = URL.init(string: imageurl as! String)
                     let imageresourse = ImageResource.init(downloadURL: url!)
                     cell.profileImage.kf.setImage(with: imageresourse)
@@ -200,7 +193,34 @@ extension chatterslistViewController : UITableViewDataSource {
             
             return cell
         }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? singlechatViewController{
+            vc.identity = neo
+            vc.subtitle = neomail
+            vc.sendimage = neoimage
+            
+        }
+        
+    }
 
 
     }
+
+extension chatterslistViewController : UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        neo = chatterlist[indexPath.row].name
+        neomail = chatterlist[indexPath.row].email
+        neoimage = images[indexPath.row]
+        
+        
+        
+            self.performSegue(withIdentifier: "tothechat",sender: self)
+            
+        
+        
+        
+        
+    }
+}
 

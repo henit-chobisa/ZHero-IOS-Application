@@ -1,0 +1,58 @@
+body{
+    height: 1000px;
+}
+.h1, h1{
+    font-size: 1.5rem;
+}
+.form-group {
+    margin-bottom: 0.5rem;
+}
+table{
+    text-align: center;
+    table-layout: fixed;
+    width: 95%;
+}
+th{
+    width: 40px;
+    height: 40px;
+}
+tr{
+    width: 40px;
+    height: 40px;
+}
+td{
+    
+}
+h1{
+    text-align: center; 
+    margin: 2px; 
+}
+  body{
+    border: darkred,solid,2px;
+    border-width: 5px;
+  }
+  #main-form{
+    border:black,solid,2px;
+    text-align: center !important;
+    width:fit-content;
+    margin: auto;
+  }
+
+  .sun{
+    margin-top:40px;
+    color: red;
+    font-size: xx-large;
+  } 
+  .sun:hover{
+    background-color: lightsalmon;
+    color: white;
+  } 
+  .date{
+    color:black;
+    font-size: xx-large;
+    vertical-align: middle;
+  }
+   .date:hover{
+    color:white;
+    background-color: lightgreen;
+  }  

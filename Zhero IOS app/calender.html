@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="calender.css">
+    <title>Calender</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div id="main-form">
+    <form class="form-group"  onsubmit="return false"> 
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="year"><h3>Year</h3></label>
+            <input type="number" name="year" id="year" min=1800 max=1000000  minlength="4" maxlength="7"  class="form-control" value="2020">
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="month"><h3>Month</h3></label>
+            <select name="month" id="monthmenu" class="form-control">
+              <option selected value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+       <div class="col">
+        <div class="form-group" id="submit">
+          <button type="submit" onclick="previousmonth();" class="btn btn-outline-success">Previous Month</button>      
+        </div>
+       </div>
+        <div class="col">
+          <div class="form-group" id="submit">
+            <button type="submit" onclick="getvalues();" class="btn btn-primary">Submit</button>      
+          </div>
+        </div>
+          <div class="col">
+            <div class="form-group" id="submit">
+              <button type="submit" onclick="nextmonth();" class="btn btn-outline-success">Next Month</button>      
+            </div>
+          </div>
+       </div>
+    </form>
+  </div>
+    <h1 id="heading">January &nbsp;&nbsp;2020</h1>
+    <table class="table" style width=30px; height=30px>
+        <thead class="thead-dark">
+          <tr style width=30px; height=30px>
+            <th id="Sunday" scope="col"> Sun </th>
+            <th id="Monday" scope="col"> Mon </th>
+            <th id="Tuesday" scope="col"> Tue</th>
+            <th id="Wednesday" scope="col">Wed</th>
+            <th id="Thursday" scope="col">Thur</th>
+            <th id="Friday" scope="col">Fri</th>
+            <th id="Saturday" scope="col">Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style width=30px; height=30px>
+            <th class="sun" id="0" scope="col"></th>
+            <th class="date" id="1" scope="col"></th>
+            <th  class="date" id="2" scope="col"></th>
+            <th  class="date" id="3" scope="col"></th>
+            <th  class="date" id="4" scope="col"></th>
+            <th  class="date" id="5" scope="col"></th>
+            <th  class="date" id="6" scope="col"></th>
+          </tr>
+          <tr>
+            <th class="sun" id="7" scope="col"></th>
+            <th class="date" id="8" scope="col"></th>
+            <th class="date" id="9" scope="col"></th>
+            <th class="date" id="10" scope="col"></th>
+            <th class="date" id="11" scope="col"></th>
+            <th class="date" id="12" scope="col"></th>
+            <th class="date" id="13" scope="col"></th>
+          </tr>
+          <tr>
+            <th  class="sun" id="14" scope="col"></th>
+            <th  class="date" id="15" scope="col"></th>
+            <th  class="date" id="16" scope="col"></th>
+            <th  class="date" id="17" scope="col"></th>
+            <th  class="date" id="18" scope="col"></th>
+            <th  class="date" id="19" scope="col"></th>
+            <th  class="date"  id="20" scope="col"></th>
+          </tr>
+          <tr>
+            <th  class="sun" id="21" scope="col"></th>
+            <th  class="date" id="22" scope="col"></th>
+            <th  class="date" id="23" scope="col"></th>
+            <th  class="date" id="24" scope="col"></th>
+            <th  class="date"  id="25" scope="col"></th>
+            <th  class="date" id="26" scope="col"></th>
+            <th  class="date" id="27" scope="col"></th>
+          </tr>
+          <tr>
+            <th  class="sun" id="28" scope="col"></th>
+            <th  class="date" id="29" scope="col"></th>
+            <th  class="date" id="30" scope="col"></th>
+            <th  class="date" id="31" scope="col"></th>
+            <th  class="date" id="32" scope="col"></th>
+            <th  class="date" id="33" scope="col"></th>
+            <th  class="date" id="34" scope="col"></th>
+          </tr>
+          <tr>
+            <th  class="sun" id="35" scope="col"></th>
+            <th  class="date" id="36" scope="col"></th>
+            <th  class="date"  id="37" scope="col"></th>
+            <th  class="date"  id="38" scope="col"></th>
+            <th  class="date" id="39" scope="col"></th>
+            <th  class="date" id="40" scope="col"></th>
+            <th  class="date" id="41" scope="col"></th>
+
+          </tr>
+
+
+        </tbody>
+      </table>
+      
+    <script src="calender.js" text/javascript" charset="utf-8"></script>
+</body>
+</html>

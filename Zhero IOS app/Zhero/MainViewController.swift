@@ -27,14 +27,19 @@ class MainViewController: UIViewController {
         imaheView.layer.cornerRadius = imaheView.frame.height/2
         
         let webView = WKWebView(frame: calView.frame)
+        let htmlPath = Bundle.main.path(forResource: "calender", ofType: "html")
         view.addSubview(webView)
-        let url = URL(string: "http://127.0.0.1:5500/index.html")
-        let request = URLRequest(url: url!)
+        let url = URL(fileURLWithPath: htmlPath!)
+//        let url = URL(string: "https://igsaves.com/zhero/")
+        let request = URLRequest(url: url)
         webView.load(request)
         calView.isMultipleTouchEnabled = false
         webView.sizeToFit()
         calView.layer.cornerRadius = 20
         webView.layer.cornerRadius = 20
+        webView.allowsLinkPreview = true
+      
+        webView.accessibilityRespondsToUserInteraction = true
         
         
         db.collection((Auth.auth().currentUser?.email)!).getDocuments { (querysnapsht, error) in
