@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2744902606402D00A7E6F8 /* MessageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2744892606402C00A7E6F8 /* MessageCellTableViewCell.xib */; };
+		1D2744912606402D00A7E6F8 /* senderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D27448A2606402C00A7E6F8 /* senderTableViewCell.xib */; };
+		1D2744922606402D00A7E6F8 /* Chatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D27448B2606402C00A7E6F8 /* Chatters.swift */; };
+		1D2744932606402D00A7E6F8 /* ChatterRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D27448C2606402D00A7E6F8 /* ChatterRows.swift */; };
+		1D2744942606402D00A7E6F8 /* MessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D27448D2606402D00A7E6F8 /* MessageContent.swift */; };
+		1D2744952606402D00A7E6F8 /* senderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D27448E2606402D00A7E6F8 /* senderTableViewCell.swift */; };
+		1D2744962606402D00A7E6F8 /* MessageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D27448F2606402D00A7E6F8 /* MessageCellTableViewCell.swift */; };
+		1D356DD926060097008DF68D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D356DD826060097008DF68D /* GoogleService-Info.plist */; };
+		1D356DF526060DEF008DF68D /* SummarizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D356DF426060DEF008DF68D /* SummarizerViewController.swift */; };
+		1D356DF826060DFB008DF68D /* TTHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D356DF726060DFB008DF68D /* TTHViewController.swift */; };
+		1D88FF1D26063B8C00BCF9E1 /* chatterslistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D88FF1C26063B8C00BCF9E1 /* chatterslistViewController.swift */; };
+		1D88FF2026063B9D00BCF9E1 /* singlechatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D88FF1F26063B9D00BCF9E1 /* singlechatViewController.swift */; };
+		1DDB9275260638F4000959A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDB9274260638F4000959A3 /* Main.storyboard */; };
+		1DDC0B9826055B1500CC7C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC0B9726055B1500CC7C4B /* AppDelegate.swift */; };
+		1DDC0B9A26055B1500CC7C4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC0B9926055B1500CC7C4B /* SceneDelegate.swift */; };
+		1DDC0B9C26055B1500CC7C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC0B9B26055B1500CC7C4B /* ViewController.swift */; };
+		1DDC0BA126055B1600CC7C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDC0BA026055B1600CC7C4B /* Assets.xcassets */; };
+		1DDC0BA426055B1600CC7C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDC0BA226055B1600CC7C4B /* LaunchScreen.storyboard */; };
+		1DDC0BC72605D8D200CC7C4B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC0BC62605D8D200CC7C4B /* RegisterViewController.swift */; };
+		1DDC0BCA2605D8F600CC7C4B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC0BC92605D8F600CC7C4B /* MainViewController.swift */; };
+		1E2DE4971A71DFA87C8FEE55 /* Pods_Zhero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC7419FB1350044EAF930C8 /* Pods_Zhero.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CC7419FB1350044EAF930C8 /* Pods_Zhero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zhero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2744892606402C00A7E6F8 /* MessageCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCellTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1D27448A2606402C00A7E6F8 /* senderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = senderTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1D27448B2606402C00A7E6F8 /* Chatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chatters.swift; sourceTree = SOURCE_ROOT; };
+		1D27448C2606402D00A7E6F8 /* ChatterRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatterRows.swift; sourceTree = SOURCE_ROOT; };
+		1D27448D2606402D00A7E6F8 /* MessageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageContent.swift; sourceTree = SOURCE_ROOT; };
+		1D27448E2606402D00A7E6F8 /* senderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = senderTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		1D27448F2606402D00A7E6F8 /* MessageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCellTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		1D356DD826060097008DF68D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D356DF426060DEF008DF68D /* SummarizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarizerViewController.swift; sourceTree = "<group>"; };
+		1D356DF726060DFB008DF68D /* TTHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTHViewController.swift; sourceTree = "<group>"; };
+		1D88FF1C26063B8C00BCF9E1 /* chatterslistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatterslistViewController.swift; sourceTree = "<group>"; };
+		1D88FF1F26063B9D00BCF9E1 /* singlechatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singlechatViewController.swift; sourceTree = "<group>"; };
+		1DDB9274260638F4000959A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1DDC0B9426055B1500CC7C4B /* Zhero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zhero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDC0B9726055B1500CC7C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DDC0B9926055B1500CC7C4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DDC0B9B26055B1500CC7C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DDC0BA026055B1600CC7C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DDC0BA326055B1600CC7C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DDC0BA526055B1600CC7C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDC0BC62605D8D200CC7C4B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1DDC0BC92605D8F600CC7C4B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		821820856CF0DF9598CA533F /* Pods-Zhero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.release.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.release.xcconfig"; sourceTree = "<group>"; };
+		90BC3535B826762472BEF685 /* Pods-Zhero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.debug.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DDC0B9126055B1500CC7C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2DE4971A71DFA87C8FEE55 /* Pods_Zhero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC11C3EE3C47B8171E094FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90BC3535B826762472BEF685 /* Pods-Zhero.debug.xcconfig */,
+				821820856CF0DF9598CA533F /* Pods-Zhero.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1DDC0B8B26055B1500CC7C4B = {
+			isa = PBXGroup;
+			children = (
+				1DDC0B9626055B1500CC7C4B /* Zhero */,
+				1DDC0B9526055B1500CC7C4B /* Products */,
+				0BC11C3EE3C47B8171E094FD /* Pods */,
+				6F744E2CF706282EC466A49D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DDC0B9526055B1500CC7C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC0B9426055B1500CC7C4B /* Zhero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DDC0B9626055B1500CC7C4B /* Zhero */ = {
+			isa = PBXGroup;
+			children = (
+				1D27448C2606402D00A7E6F8 /* ChatterRows.swift */,
+				1D27448B2606402C00A7E6F8 /* Chatters.swift */,
+				1D27448F2606402D00A7E6F8 /* MessageCellTableViewCell.swift */,
+				1D2744892606402C00A7E6F8 /* MessageCellTableViewCell.xib */,
+				1D27448D2606402D00A7E6F8 /* MessageContent.swift */,
+				1D27448E2606402D00A7E6F8 /* senderTableViewCell.swift */,
+				1D27448A2606402C00A7E6F8 /* senderTableViewCell.xib */,
+				1DDB9274260638F4000959A3 /* Main.storyboard */,
+				1D356DD826060097008DF68D /* GoogleService-Info.plist */,
+				1DDC0B9726055B1500CC7C4B /* AppDelegate.swift */,
+				1DDC0B9926055B1500CC7C4B /* SceneDelegate.swift */,
+				1DDC0B9B26055B1500CC7C4B /* ViewController.swift */,
+				1DDC0BA026055B1600CC7C4B /* Assets.xcassets */,
+				1DDC0BA226055B1600CC7C4B /* LaunchScreen.storyboard */,
+				1DDC0BA526055B1600CC7C4B /* Info.plist */,
+				1DDC0BC62605D8D200CC7C4B /* RegisterViewController.swift */,
+				1DDC0BC92605D8F600CC7C4B /* MainViewController.swift */,
+				1D356DF426060DEF008DF68D /* SummarizerViewController.swift */,
+				1D356DF726060DFB008DF68D /* TTHViewController.swift */,
+				1D88FF1C26063B8C00BCF9E1 /* chatterslistViewController.swift */,
+				1D88FF1F26063B9D00BCF9E1 /* singlechatViewController.swift */,
+			);
+			path = Zhero;
+			sourceTree = "<group>";
+		};
+		6F744E2CF706282EC466A49D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7419FB1350044EAF930C8 /* Pods_Zhero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DDC0B9326055B1500CC7C4B /* Zhero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDC0BA826055B1600CC7C4B /* Build configuration list for PBXNativeTarget "Zhero" */;
+			buildPhases = (
+				E53B277A879E2EDD338F883D /* [CP] Check Pods Manifest.lock */,
+				1DDC0B9026055B1500CC7C4B /* Sources */,
+				1DDC0B9126055B1500CC7C4B /* Frameworks */,
+				1DDC0B9226055B1500CC7C4B /* Resources */,
+				5D67EBDC82DC430465D13A75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zhero;
+			productName = Zhero;
+			productReference = 1DDC0B9426055B1500CC7C4B /* Zhero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DDC0B8C26055B1500CC7C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1DDC0B9326055B1500CC7C4B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 1DDC0B8F26055B1500CC7C4B /* Build configuration list for PBXProject "Zhero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DDC0B8B26055B1500CC7C4B;
+			productRefGroup = 1DDC0B9526055B1500CC7C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDC0B9326055B1500CC7C4B /* Zhero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DDC0B9226055B1500CC7C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDC0BA426055B1600CC7C4B /* LaunchScreen.storyboard in Resources */,
+				1D2744902606402D00A7E6F8 /* MessageCellTableViewCell.xib in Resources */,
+				1D2744912606402D00A7E6F8 /* senderTableViewCell.xib in Resources */,
+				1DDC0BA126055B1600CC7C4B /* Assets.xcassets in Resources */,
+				1D356DD926060097008DF68D /* GoogleService-Info.plist in Resources */,
+				1DDB9275260638F4000959A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D67EBDC82DC430465D13A75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhero/Pods-Zhero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhero/Pods-Zhero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zhero/Pods-Zhero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53B277A879E2EDD338F883D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zhero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DDC0B9026055B1500CC7C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2744952606402D00A7E6F8 /* senderTableViewCell.swift in Sources */,
+				1D88FF1D26063B8C00BCF9E1 /* chatterslistViewController.swift in Sources */,
+				1D88FF2026063B9D00BCF9E1 /* singlechatViewController.swift in Sources */,
+				1DDC0B9C26055B1500CC7C4B /* ViewController.swift in Sources */,
+				1D2744922606402D00A7E6F8 /* Chatters.swift in Sources */,
+				1D2744932606402D00A7E6F8 /* ChatterRows.swift in Sources */,
+				1D356DF526060DEF008DF68D /* SummarizerViewController.swift in Sources */,
+				1DDC0B9826055B1500CC7C4B /* AppDelegate.swift in Sources */,
+				1DDC0B9A26055B1500CC7C4B /* SceneDelegate.swift in Sources */,
+				1DDC0BC72605D8D200CC7C4B /* RegisterViewController.swift in Sources */,
+				1DDC0BCA2605D8F600CC7C4B /* MainViewController.swift in Sources */,
+				1D2744962606402D00A7E6F8 /* MessageCellTableViewCell.swift in Sources */,
+				1D356DF826060DFB008DF68D /* TTHViewController.swift in Sources */,
+				1D2744942606402D00A7E6F8 /* MessageContent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DDC0BA226055B1600CC7C4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDC0BA326055B1600CC7C4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DDC0BA626055B1600CC7C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DDC0BA726055B1600CC7C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DDC0BA926055B1600CC7C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BC3535B826762472BEF685 /* Pods-Zhero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTT23YW2Z9;
+				INFOPLIST_FILE = Zhero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henit-chobisa.Zhero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DDC0BAA26055B1600CC7C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821820856CF0DF9598CA533F /* Pods-Zhero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTT23YW2Z9;
+				INFOPLIST_FILE = Zhero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.henit-chobisa.Zhero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DDC0B8F26055B1500CC7C4B /* Build configuration list for PBXProject "Zhero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDC0BA626055B1600CC7C4B /* Debug */,
+				1DDC0BA726055B1600CC7C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDC0BA826055B1600CC7C4B /* Build configuration list for PBXNativeTarget "Zhero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDC0BA926055B1600CC7C4B /* Debug */,
+				1DDC0BAA26055B1600CC7C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DDC0B8C26055B1500CC7C4B /* Project object */;
+}
