@@ -27,7 +27,7 @@ Dillinger uses a number of open source projects to work properly:
 
 
 ![](https://github.com/HENIT0885/ZHero_AccessDenied/blob/505f03c82b0b6d30cf5aec7f391aebcb4c5767f3/Screenshot%202021-03-21%20at%203.04.39%20PM.png)
-![]()
+![](https://github.com/HENIT0885/ZHero_AccessDenied/blob/2805579e9eaa14c1e858666034fc1693e12cdd20/Screenshot%202021-03-21%20at%203.04.45%20PM.png)
 
 ## Text Summary Example
 
