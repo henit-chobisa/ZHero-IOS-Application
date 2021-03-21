@@ -1,0 +1,89 @@
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	max-height: 10vh;
+}
+
+$radius: 100px;
+$size: 300px;
+$color-on: #fff;
+$color-off: #333;
+
+.toggle-button {
+	border: solid $color-off;
+	border-radius: $radius;
+	font-size: 22px;
+	overflow: hidden;
+	position: relative;
+	width: $size;
+
+	&__text {
+		background: $color-on;
+		border-radius: $radius;
+		cursor: pointer;
+		display: flex;
+		font-weight: bold;
+		justify-content: space-between;
+		padding: 1em 1.5em;
+		user-select: none;
+		z-index: 5;
+
+		&:before,
+		&:after {
+			border-radius: $radius;
+			content: "";
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			transition: transform 0.3s ease;
+			width: $size;
+			z-index: 0;
+		}
+
+		&:before {
+			background: $color-off;
+			transform: translateX(-4px);
+		}
+
+		&:after {
+			background: $color-on;
+			transform: translateX($size + 15px);
+		}
+	}
+
+	&__on,
+	&__off {
+		z-index: 10;
+	}
+
+	&__on {
+		color: $color-off;
+	}
+
+	&__off {
+		color: $color-on;
+	}
+
+	input {
+		position: absolute;
+		right: -20px;
+		top: -20px;
+
+		&:checked {
+			& + .toggle-button__text {
+				background: $color-off;
+
+				&:before {
+					transform: translateX(-#{$size + 15px});
+				}
+
+				&:after {
+					transform: translateX(-4px);
+				}
+			}
+		}
+	}
+}

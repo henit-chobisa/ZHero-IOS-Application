@@ -12,6 +12,7 @@ import Kingfisher
 
 class SummarizerViewController: UIViewController {
     
+    @IBOutlet weak var sumView: UIView!
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var imaheView: UIImageView!
     let db = Firestore.firestore()
@@ -22,6 +23,15 @@ class SummarizerViewController: UIViewController {
         
         topView.layer.cornerRadius = 20
         imaheView.layer.cornerRadius = imaheView.frame.height/2
+        
+        
+        let webView = WKWebView(frame: sumView.frame)
+//        let htmlPath = Bundle.main.path(forResource: "index 2", ofType: "html")
+        view.addSubview(webView)
+//        let url = URL(fileURLWithPath: htmlPath!)
+        let url = URL(string: "https://igsaves.com/zhero/")
+        let request = URLRequest(url: url!)
+        webView.load(request)
         
         db.collection((Auth.auth().currentUser?.email)!).getDocuments { (querysnapsht, error) in
             let data = querysnapsht!.documents

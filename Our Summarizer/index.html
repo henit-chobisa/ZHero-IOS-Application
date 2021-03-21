@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main flex flex-ai-c flex-jc-c">
+    <div class="toggle flex flex-ai-c">
+        <div class="container link">
+            <label for="on_off" class="toggle-button">
+                <input type="checkbox" name="on_off" id="on_off" />
+                <span class="toggle-button__text" onclick="change();">
+                    <span class="toggle-button__on">TEXT</span>
+                    <span class="toggle-button__off">LINK</span>
+                </span>
+            </label>
+        </div>
+    </div>
+
+    <div class="contain flex flex-jc-c flex-ai-c">
+        <div class="text wrapper hide" id="text">
+            <div class="input-only">
+                <h2>Input Text</h2>
+                <input class="input-box" placeholder="Text" type="text">
+                <a href="#" class="btn">Submit</a>
+            </div>
+        </div>
+        <div class="link wrapper" id="link">
+            <div class="input-only">
+            <h2>Input Link</h2>
+            <input class="input-box" placeholder="Link" type="text">
+            <a href="#" class="btn">Submit</a>
+        </div>
+        </div>
+    </div>
+    </main>
+</body>
+<script src="/app/js/app.js"></script>
+</html>

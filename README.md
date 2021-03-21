@@ -41,3 +41,6 @@ is one of unsolved problems in theoretical computer science.
 
 this has been summarized from the following link of wikipedia:
 [Computer Science](https://en.wikipedia.org/wiki/Computer_science)
+
+
+Python3 - Used NLP to convert long-text into summary. JavaScript , cocoa framework with UIKit for making the IOS app, HTML , CSS

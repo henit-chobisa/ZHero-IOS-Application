@@ -269,6 +269,11 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zoS-ra-hcE">
+                                <rect key="frame" x="5" y="141" width="404" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gub-iw-nJh"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -283,12 +288,13 @@
                     <connections>
                         <outlet property="imaheView" destination="TIF-71-rTT" id="w1Q-hf-QDc"/>
                         <outlet property="nameLabel" destination="zTr-oi-f21" id="ffD-AY-g7o"/>
+                        <outlet property="sumView" destination="zoS-ra-hcE" id="afL-nG-Gpt"/>
                         <outlet property="topView" destination="yiH-Tp-SPy" id="dfr-wr-xnR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BrW-uY-iEe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3467" y="923"/>
+            <point key="canvasLocation" x="3466.666666666667" y="922.76785714285711"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="QPV-ET-8d1">

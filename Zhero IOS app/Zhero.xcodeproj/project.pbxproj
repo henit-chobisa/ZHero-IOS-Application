@@ -36,6 +36,11 @@
 		1DE5392C260683C5009710D7 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53924260683C5009710D7 /* js */; };
 		1DE5392D260683C5009710D7 /* calender.js in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53925260683C5009710D7 /* calender.js */; };
 		1DE5392E260683C5009710D7 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1DE53926260683C5009710D7 /* images */; };
+		1DE539362606A0A1009710D7 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE539302606A0A0009710D7 /* assets */; };
+		1DE539372606A0A1009710D7 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 1DE539312606A0A0009710D7 /* js */; };
+		1DE539382606A0A1009710D7 /* index 2.html in Resources */ = {isa = PBXBuildFile; fileRef = 1DE539322606A0A1009710D7 /* index 2.html */; };
+		1DE539392606A0A1009710D7 /* app in Resources */ = {isa = PBXBuildFile; fileRef = 1DE539332606A0A1009710D7 /* app */; };
+		1DE5393B2606A0A1009710D7 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 1DE539352606A0A1009710D7 /* dist */; };
 		1E2DE4971A71DFA87C8FEE55 /* Pods_Zhero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC7419FB1350044EAF930C8 /* Pods_Zhero.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +77,11 @@
 		1DE53924260683C5009710D7 /* js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = js; sourceTree = SOURCE_ROOT; };
 		1DE53925260683C5009710D7 /* calender.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calender.js; sourceTree = SOURCE_ROOT; };
 		1DE53926260683C5009710D7 /* images */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = images; sourceTree = SOURCE_ROOT; };
+		1DE539302606A0A0009710D7 /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = assets; sourceTree = SOURCE_ROOT; };
+		1DE539312606A0A0009710D7 /* js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = js; sourceTree = SOURCE_ROOT; };
+		1DE539322606A0A1009710D7 /* index 2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "index 2.html"; sourceTree = SOURCE_ROOT; };
+		1DE539332606A0A1009710D7 /* app */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = app; sourceTree = SOURCE_ROOT; };
+		1DE539352606A0A1009710D7 /* dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dist; sourceTree = SOURCE_ROOT; };
 		821820856CF0DF9598CA533F /* Pods-Zhero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.release.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.release.xcconfig"; sourceTree = "<group>"; };
 		90BC3535B826762472BEF685 /* Pods-Zhero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.debug.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +128,11 @@
 		1DDC0B9626055B1500CC7C4B /* Zhero */ = {
 			isa = PBXGroup;
 			children = (
+				1DE539332606A0A1009710D7 /* app */,
+				1DE539302606A0A0009710D7 /* assets */,
+				1DE539352606A0A1009710D7 /* dist */,
+				1DE539322606A0A1009710D7 /* index 2.html */,
+				1DE539312606A0A0009710D7 /* js */,
 				1DE53921260683C4009710D7 /* calender.css */,
 				1DE53920260683C4009710D7 /* calender.html */,
 				1DE53925260683C5009710D7 /* calender.js */,
@@ -224,10 +239,15 @@
 				1DE5392A260683C5009710D7 /* fonts in Resources */,
 				1DDC0BA426055B1600CC7C4B /* LaunchScreen.storyboard in Resources */,
 				1DE53928260683C5009710D7 /* calender.html in Resources */,
+				1DE539382606A0A1009710D7 /* index 2.html in Resources */,
+				1DE5393B2606A0A1009710D7 /* dist in Resources */,
 				1D2744902606402D00A7E6F8 /* MessageCellTableViewCell.xib in Resources */,
+				1DE539392606A0A1009710D7 /* app in Resources */,
 				1D2744912606402D00A7E6F8 /* senderTableViewCell.xib in Resources */,
 				1DDC0BA126055B1600CC7C4B /* Assets.xcassets in Resources */,
 				1DE5391D26065A0F009710D7 /* ChatterRows.xib in Resources */,
+				1DE539372606A0A1009710D7 /* js in Resources */,
+				1DE539362606A0A1009710D7 /* assets in Resources */,
 				1DE5392D260683C5009710D7 /* calender.js in Resources */,
 				1DE53927260683C5009710D7 /* index.html in Resources */,
 				1DE53929260683C5009710D7 /* calender.css in Resources */,

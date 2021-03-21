@@ -27,9 +27,10 @@ class TTHViewController: UIViewController {
         imaheView.layer.cornerRadius = imaheView.frame.height/2
         let webView = WKWebView(frame: myview.frame)
         view.addSubview(webView)
-        let path = Bundle.main.path(forResource: "index", ofType: "html")
-        let url = URL(fileURLWithPath: path!)
-        let request = URLRequest(url: url)
+//        let path = Bundle.main.path(forResource: "index", ofType: "html")
+        let url = URL(string: "https://igsaves.com/hand/")
+//        let url = URL(fileURLWithPath: path!)
+        let request = URLRequest(url: url!)
         webView.load(request)
         myview.isMultipleTouchEnabled = false
         webView.allowsLinkPreview = true
