@@ -26,7 +26,7 @@ Dillinger uses a number of open source projects to work properly:
 ## Text to Handwriting Example 
 
 
-![](Screenshot 2021-03-21 at 3.04.45 PM.png)
+![](https://github.com/HENIT0885/ZHero_AccessDenied/blob/505f03c82b0b6d30cf5aec7f391aebcb4c5767f3/Screenshot%202021-03-21%20at%203.04.39%20PM.png)
 
 ## Text Summary Example
 
