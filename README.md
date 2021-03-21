@@ -25,7 +25,7 @@ Dillinger uses a number of open source projects to work properly:
 
 ## Text to Handwriting Example 
 
-![](https://im6.ezgif.com/tmp/ezgif-6-cb43662378eb.webp)
+![](jpg.jpg)
 
 ## Text Summary Example
 
