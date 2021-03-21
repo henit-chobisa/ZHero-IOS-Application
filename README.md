@@ -25,7 +25,8 @@ Dillinger uses a number of open source projects to work properly:
 
 ## Text to Handwriting Example 
 
-![](jpg.jpg)
+![](Screenshot 2021-03-21 at 3.04.39 PM)
+![](Screenshot 2021-03-21 at 3.04.45 PM)
 
 ## Text Summary Example
 
