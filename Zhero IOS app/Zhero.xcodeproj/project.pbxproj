@@ -46,13 +46,13 @@
 
 /* Begin PBXFileReference section */
 		1CC7419FB1350044EAF930C8 /* Pods_Zhero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zhero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D2744892606402C00A7E6F8 /* MessageCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCellTableViewCell.xib; sourceTree = SOURCE_ROOT; };
-		1D27448A2606402C00A7E6F8 /* senderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = senderTableViewCell.xib; sourceTree = SOURCE_ROOT; };
-		1D27448B2606402C00A7E6F8 /* Chatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chatters.swift; sourceTree = SOURCE_ROOT; };
-		1D27448C2606402D00A7E6F8 /* ChatterRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatterRows.swift; sourceTree = SOURCE_ROOT; };
-		1D27448D2606402D00A7E6F8 /* MessageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageContent.swift; sourceTree = SOURCE_ROOT; };
-		1D27448E2606402D00A7E6F8 /* senderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = senderTableViewCell.swift; sourceTree = SOURCE_ROOT; };
-		1D27448F2606402D00A7E6F8 /* MessageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCellTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		1D2744892606402C00A7E6F8 /* MessageCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageCellTableViewCell.xib; path = "Zhero/Chat Assets/MessageCellTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		1D27448A2606402C00A7E6F8 /* senderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = senderTableViewCell.xib; path = "Zhero/Chat Assets/senderTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		1D27448B2606402C00A7E6F8 /* Chatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chatters.swift; path = "Zhero/Chat Assets/Chatters.swift"; sourceTree = SOURCE_ROOT; };
+		1D27448C2606402D00A7E6F8 /* ChatterRows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatterRows.swift; path = "Zhero/Chat Assets/ChatterRows.swift"; sourceTree = SOURCE_ROOT; };
+		1D27448D2606402D00A7E6F8 /* MessageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageContent.swift; path = "Zhero/Chat Assets/MessageContent.swift"; sourceTree = SOURCE_ROOT; };
+		1D27448E2606402D00A7E6F8 /* senderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = senderTableViewCell.swift; path = "Zhero/Chat Assets/senderTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		1D27448F2606402D00A7E6F8 /* MessageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageCellTableViewCell.swift; path = "Zhero/Chat Assets/MessageCellTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		1D356DD826060097008DF68D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1D356DF426060DEF008DF68D /* SummarizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarizerViewController.swift; sourceTree = "<group>"; };
 		1D356DF726060DFB008DF68D /* TTHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTHViewController.swift; sourceTree = "<group>"; };
@@ -68,20 +68,20 @@
 		1DDC0BA526055B1600CC7C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDC0BC62605D8D200CC7C4B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1DDC0BC92605D8F600CC7C4B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		1DE5391C26065A0E009710D7 /* ChatterRows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatterRows.xib; sourceTree = SOURCE_ROOT; };
-		1DE5391F260683C4009710D7 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = SOURCE_ROOT; };
-		1DE53920260683C4009710D7 /* calender.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = calender.html; sourceTree = SOURCE_ROOT; };
-		1DE53921260683C4009710D7 /* calender.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = calender.css; sourceTree = SOURCE_ROOT; };
-		1DE53922260683C5009710D7 /* fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fonts; sourceTree = SOURCE_ROOT; };
-		1DE53923260683C5009710D7 /* css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = css; sourceTree = SOURCE_ROOT; };
-		1DE53924260683C5009710D7 /* js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = js; sourceTree = SOURCE_ROOT; };
-		1DE53925260683C5009710D7 /* calender.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calender.js; sourceTree = SOURCE_ROOT; };
-		1DE53926260683C5009710D7 /* images */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = images; sourceTree = SOURCE_ROOT; };
-		1DE539302606A0A0009710D7 /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = assets; sourceTree = SOURCE_ROOT; };
-		1DE539312606A0A0009710D7 /* js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = js; sourceTree = SOURCE_ROOT; };
-		1DE539322606A0A1009710D7 /* index 2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "index 2.html"; sourceTree = SOURCE_ROOT; };
-		1DE539332606A0A1009710D7 /* app */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = app; sourceTree = SOURCE_ROOT; };
-		1DE539352606A0A1009710D7 /* dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dist; sourceTree = SOURCE_ROOT; };
+		1DE5391C26065A0E009710D7 /* ChatterRows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatterRows.xib; path = "Zhero/Chat Assets/ChatterRows.xib"; sourceTree = SOURCE_ROOT; };
+		1DE5391F260683C4009710D7 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = "Zhero/Web Files/index.html"; sourceTree = SOURCE_ROOT; };
+		1DE53920260683C4009710D7 /* calender.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = calender.html; path = "Zhero/Web Files/calender.html"; sourceTree = SOURCE_ROOT; };
+		1DE53921260683C4009710D7 /* calender.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = calender.css; path = "Zhero/Web Files/calender.css"; sourceTree = SOURCE_ROOT; };
+		1DE53922260683C5009710D7 /* fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = fonts; path = "Zhero/Web Files/fonts"; sourceTree = SOURCE_ROOT; };
+		1DE53923260683C5009710D7 /* css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = css; path = "Zhero/Web Files/css"; sourceTree = SOURCE_ROOT; };
+		1DE53924260683C5009710D7 /* js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = js; path = "Zhero/Web Files/js"; sourceTree = SOURCE_ROOT; };
+		1DE53925260683C5009710D7 /* calender.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = calender.js; path = "Zhero/Web Files/calender.js"; sourceTree = SOURCE_ROOT; };
+		1DE53926260683C5009710D7 /* images */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = images; path = "Zhero/Web Files/images"; sourceTree = SOURCE_ROOT; };
+		1DE539302606A0A0009710D7 /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = assets; path = "Zhero/Web Files/assets"; sourceTree = SOURCE_ROOT; };
+		1DE539312606A0A0009710D7 /* js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = js; path = "Zhero/Web Files/js"; sourceTree = SOURCE_ROOT; };
+		1DE539322606A0A1009710D7 /* index 2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "index 2.html"; path = "Zhero/Web Files/index 2.html"; sourceTree = SOURCE_ROOT; };
+		1DE539332606A0A1009710D7 /* app */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = app; path = "Zhero/Web Files/app"; sourceTree = SOURCE_ROOT; };
+		1DE539352606A0A1009710D7 /* dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = dist; path = "Zhero/Web Files/dist"; sourceTree = SOURCE_ROOT; };
 		821820856CF0DF9598CA533F /* Pods-Zhero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.release.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.release.xcconfig"; sourceTree = "<group>"; };
 		90BC3535B826762472BEF685 /* Pods-Zhero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhero.debug.xcconfig"; path = "Target Support Files/Pods-Zhero/Pods-Zhero.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,19 +128,21 @@
 		1DDC0B9626055B1500CC7C4B /* Zhero */ = {
 			isa = PBXGroup;
 			children = (
-				1DE539332606A0A1009710D7 /* app */,
-				1DE539302606A0A0009710D7 /* assets */,
-				1DE539352606A0A1009710D7 /* dist */,
-				1DE539322606A0A1009710D7 /* index 2.html */,
-				1DE539312606A0A0009710D7 /* js */,
-				1DE53921260683C4009710D7 /* calender.css */,
-				1DE53920260683C4009710D7 /* calender.html */,
-				1DE53925260683C5009710D7 /* calender.js */,
-				1DE53923260683C5009710D7 /* css */,
-				1DE53922260683C5009710D7 /* fonts */,
-				1DE53926260683C5009710D7 /* images */,
-				1DE5391F260683C4009710D7 /* index.html */,
-				1DE53924260683C5009710D7 /* js */,
+				1DEEE389260A6877009A0FE9 /* Web Files */,
+				1DEEE385260A6723009A0FE9 /* Chat Assets */,
+				1DDB9274260638F4000959A3 /* Main.storyboard */,
+				1DDC0BA526055B1600CC7C4B /* Info.plist */,
+				1DEEE388260A683C009A0FE9 /* PLIST & DELEGATE */,
+				1DEEE386260A681A009A0FE9 /* Controllers */,
+				1DDC0BA026055B1600CC7C4B /* Assets.xcassets */,
+				1DDC0BA226055B1600CC7C4B /* LaunchScreen.storyboard */,
+			);
+			path = Zhero;
+			sourceTree = "<group>";
+		};
+		1DEEE385260A6723009A0FE9 /* Chat Assets */ = {
+			isa = PBXGroup;
+			children = (
 				1DE5391C26065A0E009710D7 /* ChatterRows.xib */,
 				1D27448C2606402D00A7E6F8 /* ChatterRows.swift */,
 				1D27448B2606402C00A7E6F8 /* Chatters.swift */,
@@ -149,14 +151,14 @@
 				1D27448D2606402D00A7E6F8 /* MessageContent.swift */,
 				1D27448E2606402D00A7E6F8 /* senderTableViewCell.swift */,
 				1D27448A2606402C00A7E6F8 /* senderTableViewCell.xib */,
-				1DDB9274260638F4000959A3 /* Main.storyboard */,
-				1D356DD826060097008DF68D /* GoogleService-Info.plist */,
-				1DDC0B9726055B1500CC7C4B /* AppDelegate.swift */,
-				1DDC0B9926055B1500CC7C4B /* SceneDelegate.swift */,
+			);
+			path = "Chat Assets";
+			sourceTree = "<group>";
+		};
+		1DEEE386260A681A009A0FE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				1DDC0B9B26055B1500CC7C4B /* ViewController.swift */,
-				1DDC0BA026055B1600CC7C4B /* Assets.xcassets */,
-				1DDC0BA226055B1600CC7C4B /* LaunchScreen.storyboard */,
-				1DDC0BA526055B1600CC7C4B /* Info.plist */,
 				1DDC0BC62605D8D200CC7C4B /* RegisterViewController.swift */,
 				1DDC0BC92605D8F600CC7C4B /* MainViewController.swift */,
 				1D356DF426060DEF008DF68D /* SummarizerViewController.swift */,
@@ -164,7 +166,37 @@
 				1D88FF1C26063B8C00BCF9E1 /* chatterslistViewController.swift */,
 				1D88FF1F26063B9D00BCF9E1 /* singlechatViewController.swift */,
 			);
-			path = Zhero;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1DEEE388260A683C009A0FE9 /* PLIST & DELEGATE */ = {
+			isa = PBXGroup;
+			children = (
+				1D356DD826060097008DF68D /* GoogleService-Info.plist */,
+				1DDC0B9726055B1500CC7C4B /* AppDelegate.swift */,
+				1DDC0B9926055B1500CC7C4B /* SceneDelegate.swift */,
+			);
+			path = "PLIST & DELEGATE";
+			sourceTree = "<group>";
+		};
+		1DEEE389260A6877009A0FE9 /* Web Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE5391F260683C4009710D7 /* index.html */,
+				1DE53926260683C5009710D7 /* images */,
+				1DE53922260683C5009710D7 /* fonts */,
+				1DE53923260683C5009710D7 /* css */,
+				1DE53920260683C4009710D7 /* calender.html */,
+				1DE53925260683C5009710D7 /* calender.js */,
+				1DE53921260683C4009710D7 /* calender.css */,
+				1DE539322606A0A1009710D7 /* index 2.html */,
+				1DE539312606A0A0009710D7 /* js */,
+				1DE53924260683C5009710D7 /* js */,
+				1DE539352606A0A1009710D7 /* dist */,
+				1DE539302606A0A0009710D7 /* assets */,
+				1DE539332606A0A1009710D7 /* app */,
+			);
+			path = "Web Files";
 			sourceTree = "<group>";
 		};
 		6F744E2CF706282EC466A49D /* Frameworks */ = {

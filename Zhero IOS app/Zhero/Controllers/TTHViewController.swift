@@ -28,8 +28,9 @@ class TTHViewController: UIViewController {
         let webView = WKWebView(frame: myview.frame)
         view.addSubview(webView)
 //        let path = Bundle.main.path(forResource: "index", ofType: "html")
-        let url = URL(string: "https://igsaves.com/hand/")
+//        let url = URL(string: "https://igsaves.com/hand/")
 //        let url = URL(fileURLWithPath: path!)
+        let url = URL(string: "http://127.0.0.1:5501")
         let request = URLRequest(url: url!)
         webView.load(request)
         myview.isMultipleTouchEnabled = false
@@ -48,22 +49,7 @@ class TTHViewController: UIViewController {
                 }
                 self.nameLabel.text = name
             }
-            
         }
-        
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+//code for the page
